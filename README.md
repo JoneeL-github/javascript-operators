@@ -2,4 +2,6 @@
  i made a table with Arthmetics and javascript operators
 
 
-<img src="" width=50% height=50%>
+# https://github.com/JoneeL-github/javascript-operators/blob/main/assets/table.png
+
+<img src="main/assets/table.png" width=50% height=50%>

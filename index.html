@@ -7,115 +7,99 @@
   </head>
   <body>
     <!-- ------table Start-------- -->
-    <table border="1">
-      <tr>
-        <th id="operator">Operator</th>
-        <th id="description">Description</th>
-        <th id="example">Example</th>
-        <th id="returnedValue">Returned Value</th>
-      </tr>
-      <tr>
-        <td><span>==</span></td>
-        <td>Equal to</td>
-        <td><span>2 == 4</span></td>
-        <td>false</td>
-      </tr>
-      <tr>
-        <td><span>===</span></td>
-        <td>Strict equal to (checks data type)</td>
-        <td><span>'5' === 5</span></td>
-        <td>false</td>
-      </tr>
-      <tr>
-        <td><span>!=</span></td>
-        <td>Not equal to</td>
-        <td><span>2 != 4</span></td>
-        <td>true</td>
-      </tr>
-      <tr>
-        <td><span>+</span></td>
-        <td>Addition</td>
-        <td><span>2 + 4</span></td>
-        <td>6</td>
-      </tr>
-      <tr>
-        <td><span>-</span></td>
-        <td>Subtraction</td>
-        <td><span>7 - 3</span></td>
-        <td>4</td>
-      </tr>
-      <tr>
-        <td><span>*</span></td>
-        <td>Multiplication</td>
-        <td><span>5 * 3</span></td>
-        <td>15</td>
-      </tr>
-      <tr>
-        <td><span>/</span></td>
-        <td>Division</td>
-        <td><span>10 / 2</span></td>
-        <td>5</td>
-      </tr>
-      <tr>
-        <td><span><</span></td>
-        <td>Less than</td>
-        <td><span>2 < 4</span></td>
-        <td>true</td>
-      </tr>
-      <tr>
-        <td><span>></span></td>
-        <td>Greater than</td>
-        <td><span>2 > 4</span></td>
-        <td>false</td>
-      </tr>
-      <tr>
-        <td><span><=</span></td>
-        <td>Less than or equal to</td>
-        <td><span>4 <= 4</span></td>
-        <td>true</td>
-      </tr>
-      <tr>
-        <td><span>>=</span></td>
-        <td>Greater than or equal to</td>
-        <td><span>2 >= 4</span></td>
-        <td>false</td>
-      </tr>
-      <tr>
-        <td><span>%</span></td>
-        <td>Modulus (remainder)</td>
-        <td><span>7 % 3</span></td>
-        <td>1</td>
-      </tr>
-      <tr>
-        <td><span>||</span></td>
-        <td>OR</td>
-        <td><span>(5 == 5) || (3 == 5)</span></td>
-        <td>true</td>
-      </tr>
-      <tr>
-        <td><span>!</span></td>
-        <td>NOT</td>
-        <td><span>!(5 == 3)</span></td>
-        <td>true</td>
-      </tr>
-      <tr>
-        <td><span>&&</span></td>
-        <td>AND</td>
-        <td><span>(2 < 10) && (3 > 1)</span></td>
-        <td>true</td>
-      </tr>
+    <table class="table">
+      <thead>
+        <tr>
+          <!-- table row-->
+          <th><em>Arthmetic || Math operators</em></th>
+          <!--th table heading-->
+          <th><em>Javascript Operators</em></th>
+        </tr>
+      </thead>
+      <!-- ----head end----- -->
+      <tbody>
+        <tr>
+          <!-- table row-->
+          <td><span>+</span> Addition with numbers</td>
+          <!--table data-->
+          <td><span>==</span> check if value are the same</td>
+        </tr>
+        <tr>
+          <!-- table row-->
+          <td><span>-</span> Subtracion</td>
+          <!--table data-->
+          <td>
+            <span>===</span> it checks if two values are the same strict
+            equality.
+          </td>
+        </tr>
+        <tr>
+          <!-- table row-->
+          <td><span>*</span> Multiplication</td>
+          <!--table data-->
+          <td><span>!=</span>checks if values are different not equal</td>
+        </tr>
+        <tr>
+          <!-- table row-->
+          <td><span>/</span> Division</td>
+          <!--table data-->
+          <td><span>!==</span> checks whether two values are not equal</td>
+        </tr>
+        <tr>
+          <!-- table row-->
+          <td><span>%</span> Modulus: Get the Reminder</td>
+          <!--table data-->
+          <td><span>< =</span> lesser than or equal to</td>
+        </tr>
+        <tr>
+          <!-- table row-->
+          <td><span>+ +</span> Add one onto the Number</td>
+          <!--table data-->
+          <td><span>> =</span> greater than or equal to</td>
+        </tr>
+        <tr>
+          <!-- table row-->
+          <td><span>- -</span> Subtract one from the Numbers</td>
+          <!--table data-->
+          <td><span>></span> greater than</td>
+        </tr>
+        <tr>
+          <!-- table row-->
+          <td><span>+ =</span> Shorthand add</td>
+          <!--table data-->
+          <td><span><</span> less than</td>
+        </tr>
+        <tr>
+          <!-- table row-->
+          <td><span>- =</span> Shorthand Subtract</td>
+          <!--table data-->
+          <td><span>&&</span> and</td>
+        </tr>
+        <tr>
+          <!-- table row-->
+          <td><span>* =</span> Shorthand multiply</td>
+          <!--table data-->
+          <td><span>| |</span> or</td>
+        </tr>
+        <tr>
+          <!-- table row-->
+          <td><span>/ =</span> Shorthand divide</td>
+          <!--table data-->
+          <td><span> = !</span>variable true to false or from false to true</td>
+        </tr>
+      </tbody>
+      <!-- --------------------------------------- -->
     </table>
     <!-- ------table end-------- -->
 
     <div class="image-container">
-      <img
-        id="img"
-        src="assets/x-and-y.png"
-        alt="y and x axis image"
-        style="height: 150px"
-        width="250px"
-      />
+    <img
+      id="img"
+      src="assets/x-and-y.png"
+      alt="y and x axis image"
+      style="height: 150px"
+      width="250px"
+    />
     </div>
-    <script src="main.js"></script>
   </body>
 </html>

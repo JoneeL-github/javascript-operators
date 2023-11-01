@@ -4,4 +4,4 @@
 
 
 
-<img src="https://github.com/JoneeL-github/javascript-operators/blob/main/assets/table.png" width=50% height=50%>
+<img src="https://github.com/JoneeL-github/javascript-operators/blob/main/assets/tablee.png" width=50% height=50%>
